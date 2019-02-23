@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Experimentalism
 {
-    class Program
+    interface IExpBase
     {
-        static void Main(string[] args)
-        {
-        }
+        void Experimentalism_Dummy();
     }
+
+    interface IExpAPIs : IExpBase { }
 }
